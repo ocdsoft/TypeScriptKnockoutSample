@@ -79,7 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="scripts\ts\require.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,7 +88,6 @@
     <TypeScriptCompile Include="scripts\ts\calc.ts" />
     <TypeScriptCompile Include="scripts\ts\hello.ts" />
     <TypeScriptCompile Include="scripts\ts\helloworld.ts" />
-    <TypeScriptCompile Include="scripts\ts\main.ts" />
     <TypeScriptCompile Include="scripts\ts\require-config.ts" />
     <TypeScriptCompile Include="typings\main.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\knockout\index.d.ts" />
