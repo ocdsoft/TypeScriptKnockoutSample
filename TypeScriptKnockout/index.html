@@ -21,15 +21,15 @@
     <p data-bind="text: fullname"></p>
 
     <p>Calculate</p>
-    <p>First Number: <input data-bind="value: firstnumber" /></p>
-    <p>Second Number: <input data-bind="value: secondnumber" /></p>
-    <p><button style="margin-right: .5em" data-bind="click: add">Add</button><button style="margin-right: .5em" data-bind="click: subtract">Subtract</button></p>
+    <p>First Number: <input data-bind="value: firstNumber" /></p>
+    <p>Second Number: <input data-bind="value: secondNumber" /></p>
+    <p><button style="margin-right: .5em" data-bind="confirmClick: { message: 'Are you sure you want to add these two numbers?', click: add}">Add</button><button style="margin-right: .5em" data-bind="click: subtract">Subtract</button></p>
     <p data-bind="text: result"></p>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
     <script src="scripts/built/require-config.js"></script>
     <script>
-            require(["scripts/built/hello"]);
+        require(["scripts/built/hello"]);        
     </script>
 </body>
 </html>

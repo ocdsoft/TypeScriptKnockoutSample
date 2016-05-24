@@ -88,8 +88,10 @@
     <TypeScriptCompile Include="scripts\ts\calc.ts" />
     <TypeScriptCompile Include="scripts\ts\hello.ts" />
     <TypeScriptCompile Include="scripts\ts\helloworld.ts" />
+    <TypeScriptCompile Include="scripts\ts\knockout-bindinghandlers.ts" />
     <TypeScriptCompile Include="scripts\ts\require-config.ts" />
     <TypeScriptCompile Include="typings\main.d.ts" />
+    <TypeScriptCompile Include="typings\main\ambient\knockout\bindingHandlers.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\knockout\index.d.ts" />
   </ItemGroup>
   <ItemGroup>

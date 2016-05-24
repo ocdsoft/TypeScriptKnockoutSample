@@ -1,0 +1,4 @@
+﻿
+interface KnockoutBindingHandlers {
+    confirmClick: KnockoutBindingHandler;
+}
